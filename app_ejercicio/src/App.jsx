@@ -1,15 +1,28 @@
 import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import Navbar from './components/Navbar.jsx'
+import Principal from './components/Principal.jsx'
+import Segunda from './components/Segunda.jsx'
+import Aside from './components/Aside.jsx'
 import './App.css'
-
-
 
 const App = () => {
   return (
     <div className='App'>
-      <h1>Hola Mundo</h1>
+      <Navbar />
+      <Container className="my-4">
+        <Row>
+          <Col lg={8}>
+            <Principal />
+            <Segunda />
+          </Col>
+          <Col lg={4}>
+            <Aside />
+          </Col>
+        </Row>
+      </Container>
     </div>
   )
 }
-
 
 export default App

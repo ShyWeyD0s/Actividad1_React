@@ -1,0 +1,8 @@
+.sticky-aside {
+    position: sticky;
+    top: 2rem;
+}
+
+.AsideContainer {
+    width: 100%;
+}
