@@ -21,6 +21,7 @@ const App = () => {
           </Col>
         </Row>
       </Container>
+      Prueba
     </div>
   )
 }
