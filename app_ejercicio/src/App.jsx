@@ -4,6 +4,7 @@ import Navbar from './components/Navbar.jsx'
 import Principal from './components/Principal.jsx'
 import Segunda from './components/Segunda.jsx'
 import Aside from './components/Aside.jsx'
+import Footer from './components/Footer.jsx'
 import './App.css'
 
 const App = () => {
@@ -19,9 +20,9 @@ const App = () => {
           <Col lg={4}>
             <Aside />
           </Col>
-        </Row>
+        </Row>  
       </Container>
-      Prueba
+      <Footer />
     </div>
   )
 }
